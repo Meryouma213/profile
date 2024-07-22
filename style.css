@@ -1,0 +1,71 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+.container {
+  background-color :rgb(244, 230, 230);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height:normal;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2, h3 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height:initial;
+}
+
+a {
+  color:black;
+
+}
+
+.card{
+margin: 20px;
+padding: 20px;
+border: 1px solid rgb(0, 0, 0);
+background-color: #efddee;
+border-radius: 5px;
+box-shadow: 2px 2px 2px rgb(60, 58, 58);
+}
+
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
